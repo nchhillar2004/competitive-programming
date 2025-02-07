@@ -1,5 +1,5 @@
 import java.util.Arrays;
-
+// Beats 100%
 class Square {
     public static void main(String[] args){
         int[][] matrix = {{1}};
