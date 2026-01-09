@@ -1,8 +1,10 @@
 *.class
 *.exe
 *.o
+*.out
 *.js
 
+build/
 practise/
 test/
 out/
