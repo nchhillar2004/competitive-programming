@@ -24,5 +24,10 @@ gpp() {
 
 Usage:
 ```
-gpp main.cpp
+gpp sol.cpp
+```
+
+Benchmarking:
+```
+hyperfine "./sol.out"
 ```
