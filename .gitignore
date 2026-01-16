@@ -3,6 +3,7 @@
 *.o
 *.out
 *.js
+*.vim
 
 build/
 practise/
