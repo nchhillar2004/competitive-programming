@@ -1,7 +1,11 @@
 #include <bits/stdc++.h>
-#include <cstdio>
 
 using namespace std;
+
+/*
+USACO 2018 February Contest, Bronze
+Problem 1. Teleportation
+*/
 
 int main() {
     ios::sync_with_stdio(false);

@@ -2,6 +2,11 @@
 
 using namespace std;
 
+/* 
+USACO 2016 January Contest, Bronze
+Problem 1. Promotion Counting
+*/
+
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
