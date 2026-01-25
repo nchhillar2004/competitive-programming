@@ -2,6 +2,10 @@
 
 using namespace std;
 
+/* 
+USACO 2019 US Open Contest, Bronze
+Problem 1. Bucket Brigade
+*/
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
