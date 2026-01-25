@@ -13,12 +13,17 @@
 
 ### 🛠️ Linux Bash Helper (C++)
 
-Add this to your `~/.bashrc` to compile and run C++ programs quickly:
+add in `~/.bashrc`:
 
 ```bash
 gpp() {
-    name="${1%.*}.out"
-    g++ -std=c++20 -Wall -Wextra -Wshadow -O2 "$1" -o "$name" && time ./"$name"
+    mkdir -p out
+    name="out/${1%.*}.out"
+    g++ -std=c++20 -DLOCAL -Wall -Wextra -Wshadow -O2 "$1" -o "$name" && time "./$name"
+}
+
+bench() {
+    hyperfine --shell=none "out/$1.out"
 }
 ```
 
@@ -29,5 +34,5 @@ gpp sol.cpp
 
 Benchmarking:
 ```
-hyperfine "./sol.out"
+bench sol
 ```
