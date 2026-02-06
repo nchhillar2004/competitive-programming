@@ -6,6 +6,9 @@
 ### 2018_feb
 1. [Teleportation](https://usaco.org/index.php?page=viewproblem2&cpid=807#)
 
+### 2019_open
+1. [Bucket Brigade](https://usaco.org/index.php?page=viewproblem2&cpid=939)
+
 ### 2020_jan
 1. [Word Processor](https://usaco.org/index.php?page=viewproblem2&cpid=987)
 
