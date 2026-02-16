@@ -1,17 +1,9 @@
-## dsa-cp
+## competitive-programming
+**DSA (Data Structures & Algorithms)** and **CP (Competitive Programming)** reference, notes, and solutions using:
+- C++20
+- Java 21 
 
-**DSA (Data Structures & Algorithms)** and **CP (Competitive Programming)** reference, notes, and solutions using 
-**C++** and **Java**.
-
----
-
-### 🧩 Languages & Versions
-- **C++**: C++20
-- **Java**: Java 21 
-
----
-
-### 🛠️ Linux Bash Helper (C++)
+### Linux Bash Helper (C++)
 
 add in `~/.bashrc`:
 
